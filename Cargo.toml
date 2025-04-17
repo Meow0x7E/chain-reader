@@ -1,0 +1,17 @@
+[package]
+name = "chain-reader"
+version = "0.1.0"
+authors = ["Meow0x7E <Meow0x7E@outlook.com>"]
+edition = "2024"
+description = ""
+repository = "https://github.com/Meow0x7E/chain-reader"
+keywords = ["chain", "concat", "read", "reader"]
+categories = ["rust-patterns"]
+
+[badges.maintenance]
+status = "actively-developed"
+
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1

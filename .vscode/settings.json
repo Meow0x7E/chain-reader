@@ -1,0 +1,7 @@
+{
+    "editor.fontFamily": "'JetBrains Mono', 'monospace', monospace",
+    "editor.renderWhitespace": "all",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "rust-analyzer.rustfmt.rangeFormatting.enable": true,
+}
