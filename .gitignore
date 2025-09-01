@@ -2,5 +2,4 @@ debug/
 target/
 
 .idea/
-# vscode 的特定设置应该手动引入
 .vscode/

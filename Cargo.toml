@@ -1,22 +1,10 @@
 [package]
 name = "chain-reader"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Meow0x7E <Meow0x7E@outlook.com>"]
 edition = "2024"
-description = """
-Combining multiple [`Read`] instances into a sequential read pipeline with configurable error handling
-
-将多个 [`Read`] 实例组合为具有可配置错误处理的顺序读取管道
-"""
+description = "Combining multiple [`Read`] instances into a sequential read pipeline with configurable error handling"
 repository = "https://github.com/Meow0x7E/chain-reader"
 license = "MIT"
 keywords = ["chain", "concat", "read", "reader"]
 categories = ["rust-patterns"]
-
-[badges.maintenance]
-status = "actively-developed"
-
-[profile.release]
-strip = true
-lto = true
-codegen-units = 1
